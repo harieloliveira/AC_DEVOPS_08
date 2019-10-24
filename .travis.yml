@@ -1,11 +1,17 @@
 language: python
-python:
-  - 3.6
-before_install:
-  - python --version
-  - pip install -U pip
-  - pip install -U pytest
-  - pip install -U pytest-cov
 
-  script:
-  - pytest --cov=com.faculdadeimpacta com/faculdadeimpacta/calculadora/test/
+python:
+
+- 3.6
+
+before_install:
+
+- python --version
+
+- pip install -r requirements.txt
+
+script:
+
+- pylint_runner
+
+- pytest --cov=com.Teste01 com/faculdadeimpacta/calculadora/test/
