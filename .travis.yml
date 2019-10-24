@@ -6,3 +6,6 @@ before_install:
   - pip install -U pip
   - pip install -U pytest
   - pip install -U pytest-cov
+
+  script:
+  - pytest --cov=com.faculdadeimpacta com\faculdadeimpacta\calculadora\test\test_app_web_start.py
