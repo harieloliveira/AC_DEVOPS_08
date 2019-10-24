@@ -7,5 +7,5 @@ before_install:
   - pip install -U pytest
   - pip install -U pytest-cov
 
-  # script:
-  # - pytest --cov=com.faculdadeimpacta com\faculdadeimpacta\calculadora\test\
+  script:
+  - pytest --cov=com.faculdadeimpacta com/faculdadeimpacta/calculadora/test/
