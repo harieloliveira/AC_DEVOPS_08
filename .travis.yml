@@ -12,5 +12,5 @@ before_install:
 
 script:
 
-- pytest --cov=com.Teste01 com\faculdadeimpacta\calculadora\test\
+- pytest --cov=com.Teste01 com/faculdadeimpacta/calculadora/test/
 
